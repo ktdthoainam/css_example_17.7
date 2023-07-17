@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    
+    <!-- internal -->
+    <style>
+      h1{
+        color: blue !important;
+      }
+      a{
+        text-decoration: none; //bỏ gạch chân thẻ a
+      }
+      /* theo id */
+      #line1 {
+        color:red;
+        text-decoration: underline; }
+
+      }
+      /* theo class */
+      .textGreen {
+        color:green;
+        font-size:30px ;
+        text-decoration: line-through;
+
+      }
+      h1,a,p{
+        text-align:center;
+      }
+      #line2{
+        text-decoration: overline; }
+        h4{
+          text-transform: capitalize;// viết hoa đầu
+        }
+        h3{
+          font-family: "arial"//font chu
+        }
+        h5{
+          font-style:italic;
+        }
+        h1{
+          background-color:yellow;
+        }
+        .main{
+          background-image: url(https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/234621/Xiaomi-12-xam-thumb-mau-600x600.jpg)
+        }
+        #btn{
+          background-color:blue;
+          padding-top:10px;
+          padding-bottom:10px;
+          padding-left:30px;
+          padding-right:30px;
+          border:10px solid red;
+          border-radius:20px;//bo tròn
+        }
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+
+  </head>
+  
+  <body class="body">
+   
+    <main class="main">
+      <h1 style="color:green" class="textGreen">Home page</h1>
+      <a href="">link 1</a>
+      <a href="">link 2</a>
+      <a href="" class="textGreen">link 3</a>
+      <p id="line1">dòng 1</p>
+      <h3 id="line2">dòng 2</h3>
+      <h4>thuộc tính text-transformation</h4>
+      <h3>font family</h3>
+      <h5>font style</h5>
+      <button id="btn">click here</button>
+      
+    </main>
+  </body>
+</html>
